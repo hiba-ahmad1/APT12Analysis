@@ -44,6 +44,55 @@ The Lockheed Martin Cyber Kill Chain is a model that depicts and describes the s
 <br />
 <strong>Actions on objectives:</strong> APT12 carries out its objectives using the command and control (C2) server to conduct espionage and gather sensitive data on their targets. 
 <h2>MITRE ATT&CK Framework</h2>
+To view the MITRE ATT&CK Navigator for APT12, refer to the following link: https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0005%2FG0005-enterprise-layer.json
+<br /> 
+<br />
+<img src="https://i.imgur.com/ZUQMEMF.png" height="55%" width="55%" alt="Import Module"/>
+<br /> 
+<br />
+<strong>ID:</strong> T1568.003
+<br /> 
+<br />
+<strong>Technique:</strong> Dynamic Resolution 
+<br /> 
+<br />
+<strong>Subtechnique:</strong> DNS Calculation
+<br /> 
+<br />
+<strong>Tactic:</strong> Command and Control
+<br /> 
+<br />
+<strong>Procedure:</strong> APT12 gains access to the command and control (C2) port by using DNS calculation. An example of how APT12 has done this is by multiplying the first two IP address octets and then adding the third octet to that result. This technique makes it more challenging for security researchers to detect and block the malware.
+<br /> 
+<br />
+<strong>Mitigations:</strong> Monitor the network traffic for unusual DNS requests and implement a firewall to block incoming connections to unusual ports. 
+<br /> 
+<br />
+For more information on DNS calculation, refer to the following link: https://attack.mitre.org/techniques/T1568/003/
+<br /> 
+<br />
+<img src="https://i.imgur.com/IVrCahD.png" height="55%" width="55%" alt="Import Module"/>
+<br /> 
+<br />
+<strong>ID:</strong> T1566.001
+<br /> 
+<br />
+<strong>Technique:</strong> Phishing
+<br /> 
+<br />
+<strong>Subtechnique:</strong> Spearphishing Attachment
+<br /> 
+<br />
+<strong>Tactic:</strong> Initial Access
+<br /> 
+<br />
+<strong>Procedure:</strong> APT12 sends targeted emails with malicious Microsoft Office documents and PDFs attached. These file formats are effective because they are commonly used in business and government settings. Once the attachment is opened, malicious code is executed that can infect the victim's computer with malware. The malware can then be used to gain remote access to the victim's computer.
+<br /> 
+<br />
+<strong>Mitigations:</strong> Implement robust antivirus solutions, anti-spoofing and email authentication technologies, and provide extensive user training.
+<br /> 
+<br />
+For more information on spearphishing, refer to the following link: https://attack.mitre.org/techniques/T1566/001/
 
 <h2>Summary</h2>
 <h2>Sources</h2>
