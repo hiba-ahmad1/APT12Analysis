@@ -98,6 +98,14 @@ For more information on DNS calculation, refer to the following link: https://at
 
 <h2>Summary</h2>
 <h2>Sources</h2>
+APT12. APT12, IXESHE, DynCalc, Numbered Panda, DNSCALC, Group G0005 | MITRE ATT&amp;CK®. (n.d.). Retrieved February 25, 2023, from https://attack.mitre.org/
+<br /> 
+<br />
+Meyers, A. (2017, October 11). Software Supply Chain Attacks on the Rise, Undermining Customer Trust. crowdstrike.com. Retrieved February 25, 2023, from https://www.crowdstrike.com/ 
+<br /> 
+<br />
+Moran, N., &amp; Oppenheim, M. (2022, November 28). Darwin’s Favorite APT Group. Mandiant. Retrieved February 25, 2023, from https://www.mandiant.com/
+
 <!--
  ```diff
 - text in red
