@@ -1,4 +1,4 @@
-<h1>Cyber Threat Intelligence: An In-Depth Analysis of APT 12</h1> 
+<h1>Cyber Threat Intelligence: Analysis of APT 12</h1> 
 
 <h2>Background</h2> 
 APT12 is a state-sponsored advanced persistent threat (APT) group that is based in China. The group's primary objective is speculated to be espionage, and they have targeted a wide range of industries, including defense, energy, aerospace, technology, government, and media. APT12 has mainly targeted Japan, Taiwan, and the United States.  
