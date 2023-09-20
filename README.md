@@ -7,6 +7,7 @@ APT12 is a state-sponsored advanced persistent threat (APT) group that is based 
 By understanding APT12's tactics, techniques, and procedures (TTPs), individuals and organizations can develop more effective security practices such as patching known vulnerabilities in their software and operating systems, implementing email security solutions, and monitoring networks and systems for suspicious activity. 
 <br />
 <h2>Diamond Model of Intrusion Analysis</h2>
+<div align="center">
 <img src="https://i.imgur.com/OZMRcVn.png" height="100%" width="100%" alt="Import Module"/>
 <h3>Adversary</h3> 
 APT12 also goes by the names DynCalc, Numbered Panda, DNSCALC, and IXESHE. They have mainly targeted Japan, Taiwan, and the United States. Their target industries are the aerospace, defense, and energy industries. Furthermore, they have also targeted government and media-outlets, such as the New York Times. APT12 is known for their sophisticated and targeted attacks. 
@@ -19,8 +20,10 @@ APT12 has used a variety of methods for their attacks, such as backdoors to gain
 DNS calculation is another method APT12 uses to gain access to the command and control (C2) port. This is done by multiplying the first two IP address octets, and then adding the third octet to that result. This process can be used to steal data, install additional malware, or launch other attacks against the victim's system.
 <h3>Infrastructure</h3> 
 APT12 uses a variety of infrastructure to launch and support their attacks. A common attack method of APT12 is exploiting bugs in software to gain leverage of systems and networks. APT12 has exploited many Microsoft Office, Adobe Reader, and Flash vulnerabilities. APT12 has also used a variety of C2 servers, including blogs, WordPress sites, and cloud storage providers.
+</div>
 <h2>Lockheed Martin Cyber Kill Chain</h2>
 <img src="https://i.imgur.com/xe4RG3h.png" height="100%" width="100%" alt="Import Module"/>
+<p align="center">
 The Lockheed Martin Cyber Kill Chain is a model that depicts and describes the steps involved in a cyberattack. The seven steps of the APT12 kill chain are:
 <br /> 
 <br />
@@ -43,11 +46,13 @@ The Lockheed Martin Cyber Kill Chain is a model that depicts and describes the s
 <br /> 
 <br />
 <strong>Actions on objectives:</strong> APT12 carries out its objectives using the command and control (C2) server to conduct espionage and gather sensitive data on their targets. 
+ </div>
 <h2>MITRE ATT&CK Framework</h2>
+<p align="center">
 To view the MITRE ATT&CK Navigator for APT12, refer to the following link: https://mitre-attack.github.io/attack-navigator//#layerURL=https%3A%2F%2Fattack.mitre.org%2Fgroups%2FG0005%2FG0005-enterprise-layer.json
 <br /> 
 <br />
-<img src="https://i.imgur.com/IVrCahD.png" height="55%" width="55%" alt="Import Module"/>
+<img src="https://i.imgur.com/IVrCahD.png" height="75%" width="75%" alt="Import Module"/>
 <br /> 
 <br />
 <strong>ID:</strong> T1566.001
@@ -93,10 +98,12 @@ For more information on spearphishing, refer to the following link: https://atta
 <br /> 
 <br />
 For more information on DNS calculation, refer to the following link: https://attack.mitre.org/techniques/T1568/003/
-<br /> 
-<br />
 
 <h2>Summary</h2>
+By mapping APT12's tactics, techniques, and procedures (TTPs) to the Diamond Model of Intrusion Analysis, Lockheed Martin Cyber Kill Chain, and the MITRE ATT&CK frameworks, I was able to gain insight into this specific threat actor and learn more about how cyber threat analysis models and frameworks can be used to understand and defend against modern cyber attacks.
+<br /> 
+<br />
+I found that APT12 uses a wide range of TTPs, such as spear phishing, social engineering, and malware, and they are particularly interested in espionage and intellectual property. Organizations can best defend against these TTPs by implementing a defense-in-depth approach which may include patching known vulnerabilities, implementing robust email security solutions, and continuously monitoring networks and systems for anomalous behavior. 
 <h2>Sources</h2>
 APT12. APT12, IXESHE, DynCalc, Numbered Panda, DNSCALC, Group G0005 | MITRE ATT&amp;CK®. (n.d.). Retrieved February 25, 2023, from https://attack.mitre.org/
 <br /> 
@@ -105,7 +112,6 @@ Meyers, A. (2017, October 11). Software Supply Chain Attacks on the Rise, Underm
 <br /> 
 <br />
 Moran, N., &amp; Oppenheim, M. (2022, November 28). Darwin’s Favorite APT Group. Mandiant. Retrieved February 25, 2023, from https://www.mandiant.com/
-
 <!--
  ```diff
 - text in red
